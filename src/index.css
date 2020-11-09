@@ -1,0 +1,133 @@
+body {
+  font-family: "Rubik", sans-serif !important;
+}
+
+.app-nav {
+  background-color: #0bcaff;
+  padding: 0 !important;
+  min-height: 100vh;
+  height: 100%;
+}
+
+.app-nav .logo {
+  margin-top: 30px;
+  width: 60%;
+  max-width: 100px;
+  border-radius: 50%;
+}
+
+.app-nav .menu-button {
+  width: 100%;
+  margin-top: 100px;
+  position: relative;
+  padding: 15px 0;
+  background-image: -webkit-gradient(linear, left top, right top, from(#0bcaff), to(rgba(255, 255, 255, 0.4)));
+  background-image: linear-gradient(to right, #0bcaff, rgba(255, 255, 255, 0.4));
+  cursor: pointer;
+}
+
+.app-nav .menu-button img {
+  width: 30%;
+}
+
+.app-nav .menu-button i {
+  color: white;
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+#dropdown-basic {
+  border: none;
+  background: none;
+  padding: 0;
+  width: 100%;
+}
+
+#dropdown-basic:focus {
+  outline: none !important;
+  border: none !important;
+}
+
+.main {
+  padding: 0 !important;
+  background-color: #eff3f9;
+}
+
+.main header {
+  background-color: white;
+  padding: 35px 0px 20px 20px;
+}
+
+.card {
+  border: none !important;
+}
+
+.info {
+  font-size: 0.9rem;
+}
+
+.info .info-details {
+  color: #989898;
+  font-size: 0.85rem;
+}
+
+.info .info-details * {
+  padding: 0;
+  margin: 5px;
+  margin-bottom: 0;
+}
+
+.info .fa {
+  font-size: 18px;
+}
+
+.game-icon {
+  width: 45px;
+  border-radius: 5px;
+}
+
+.star-voting {
+  -webkit-transform: translateY(10%);
+          transform: translateY(10%);
+}
+
+.star-voting * {
+  margin: 0 !important;
+}
+
+.star-voting svg {
+  width: 15px;
+}
+
+.right-pannel {
+  border-left: 0.01em solid #989898;
+}
+
+@media only screen and (max-width: 520px) {
+  .nav-container {
+    height: 120px;
+  }
+  .nav-container .app-nav .logo {
+    height: 50px;
+    width: 50px;
+    margin-top: 15px;
+  }
+  .nav-container .app-nav .menu-button {
+    margin: 0;
+    padding: 10px;
+    width: 80px;
+    margin: auto;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+  .nav-container .app-nav .menu-button .menu-icon {
+    width: 20px;
+  }
+}
+/*# sourceMappingURL=index.css.map */
