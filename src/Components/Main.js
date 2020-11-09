@@ -3,7 +3,7 @@ import GridContainer from "./GridContainer";
 import TopCharts from "./TopCharts";
 import TrackedApps from "./TrackedApps";
 import AppSuggestions from "./AppSuggestions";
-import MainGraph from "./MainGraph";
+import GridElement from "./GridElement";
 import {BrowserRouter, Route, Switch} from "react-router-dom";
 
 const Main = () => {
@@ -17,7 +17,7 @@ const Main = () => {
         <Route path="/topcharts" component={TopCharts} />
         <Route path="/trackedapps" component={TrackedApps} />
         <Route path="/appsuggestions" component={AppSuggestions} />
-        <Route path="/maingraph" component={MainGraph} />
+        <Route path="/graph" component={GridElement} />
     </div>
     </BrowserRouter>
   );

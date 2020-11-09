@@ -62,7 +62,6 @@ const ChartContainer = () => {
           min={0}
           max={11}
           majorGridLines={{ visible: false }}
-          reverse={true}
         />
       </ChartValueAxis>
       <ChartCategoryAxis>
